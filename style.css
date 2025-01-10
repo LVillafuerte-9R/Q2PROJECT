@@ -1,0 +1,46 @@
+* {
+
+}
+
+body {
+  background-image: url(https://i.pinimg.com/736x/c0/36/be/c036beeec2766bae0b62652e87d51227.jpg);
+  background-size: cover;
+}
+
+.playwrite-au-sa-<uniquifier> {
+  font-family: "Playwrite AU SA", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: black;
+}
+
+h1 {
+  color: royalblue;
+}
+
+h2 {
+  color: #FFB6C1;;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white; 
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.carousel {
+    border: 5px solid royalblue; 
+    border-radius: 10px;
+}
+
+.carousel-image {
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+}
+
+h3 {
+  color: royalblue;
+}

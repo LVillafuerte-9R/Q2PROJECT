@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Filipino Cuisine</title>
+
+  <!-- SETUP BOOTSTRAP: link to Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- link to JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!-- Add style -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+ <!-- Header with Logo -->
+    <header class="container my-3 text-center">
+        <img src="https://i.pinimg.com/736x/50/aa/a1/50aaa1e24565dac56a13a7b0a7c9cf85.jpg" alt="Tapsi Ni Lauren Logo"  class="img-fluid rounded-circle" style="width: 200px; height: 200px;">
+        <h1 class="mt-3">Tapsi Ni Lauren</h1>
+    </header>
+ <!-- Nav tabs -->
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" data-bs-toggle="tab" href="#home">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="tab" href="#recipes">Recipes</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="tab" href="#form">Form</a>
+  </li>
+</ul>
+
+<form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+
+<!-- Tab panes -->
+<div class="tab-content">
+  <div class="tab-pane container active" id="home">
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://i.pinimg.com/736x/a9/dc/f9/a9dcf98ab860d24b579b3a9028cc4c9a.jpg" alt="halo-halo" class="d-block w-100 carousel-image">
+            <div class="carousel-caption">
+                <h2>Halo-Halo</h2>
+                <p>Need to cool off? Try this flavorful delicious Filipino Dessert!</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://i.pinimg.com/736x/50/5d/38/505d3820798009ef2502178207abb923.jpg" alt="lechon" class="d-block w-100 carousel-image">
+            <div class="carousel-caption">
+                <h2>Lechon</h2>
+                <p>Every Filipino's favorite Baboy!</p>
+            </div> 
+        </div>
+        <div class="carousel-item">
+            <img src="https://i.pinimg.com/736x/8e/fd/f6/8efdf68ae55ac2390f6006c373bfcd63.jpg" alt="sinigang" class="d-block w-100 carousel-image">
+            <div class="carousel-caption">
+                <h2>Sinigang</h2>
+                <p>Feeling chilly? Try Sinigang!</p>
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+
+
+  </div>
+  
+  <div class="tab-pane container fade" id="recipes">
+    <div class="container mt-3">
+        <!-- Grid container for the cards -->
+        <div class="row">
+
+            <!-- Turon Card -->
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img class="card-img-top" src="https://i.pinimg.com/736x/4e/48/62/4e48629344f362dd0032ec8db88ee5e7.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h3 class="card-title">Snacks: Turon</h3>
+                        <p class="card-text">It is a delicious type of snack for Filipinos. There is a banana wrapped around a crunchy wrapper and is glazed with honey.</p>
+                        <div class="container mt-3"> 
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModalTuron">
+                                Click Here
+                            </button>
+                        </div>
+
+          <!-- Modal for Turon -->
+          <div class="modal" id="myModalTuron">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">INSTRUCTIONS</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  Begin by preparing the filling, which consists of a saba banana sliced lengthwise and a few pieces of ripe jackfruit. Coat the banana slices in sugar until they are fully covered. You can use either brown or white sugar. Place the coated banana on a lumpia wrapper and top it with the jackfruit slices. Secure the filling by wrapping the wrapper around the ingredients. Continue this process until all the bananas are used.
+
+                  Next, fry the banana lumpia until golden brown. To achieve a glossy coating, there's an extra step: pour the remaining sugar into hot oil. Allow the sugar to melt completely before frying the wrapped bananas in batches. The melted sugar will form a caramelized glaze on the wrapper as it fries. Once fried, remove the turon from the pan and let any excess oil drain. Allow it to cool for about 5 minutes before serving.
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pandesal Card -->
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img class="card-img-top" src="https://i.pinimg.com/736x/14/21/49/1421495df35bdff1a263d87a145fa89f.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h3 class="card-title">Snacks: Pandesal</h3>
+                        <p class="card-text">A soft yet a delicious type of bread where you can put butter in it to enhance the flavor.</p>
+                        <div class="container mt-3"> 
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModalPandesal">
+                                Click Here
+                            </button>
+                        </div>
+
+
+
+            <!-- Modal for Pandesal -->
+            <div class="modal" id="myModalPandesal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">INSTRUCTIONS</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    In the bowl of a stand mixer fitted with a dough hook, combine flour, sugar, yeast, and salt. Mix on low speed until everything is well blended. Add the milk, oil, eggs, and egg yolk, and mix until the dough becomes shaggy, about 2 minutes. Increase the speed to medium and continue mixing for about 10 minutes, until the dough is smooth and pulls away from the sides of the bowl (it will still be sticky and remain at the bottom). Use a bowl scraper to transfer the dough to a lightly oiled large bowl, cover loosely with plastic wrap, and let it rise at room temperature (75°F/24°C) for about 1 1/2 hours, or until it doubles in size.
+
+                    Line a rimmed baking sheet with parchment paper and fill a shallow bowl with breadcrumbs. Turn the dough out onto a floured surface, being careful not to deflate it. Divide the dough into 16 equal pieces (each about 2 1/3 ounces or 65g). Take one portion and roll it into a smooth ball by cupping your hand and making quick circular motions. Coat the ball in breadcrumbs, then place it on the prepared baking sheet. Repeat with the remaining dough portions, spacing them about 1 inch apart. Loosely cover the dough with plastic wrap and let it rise for about 1 hour, or until nearly doubled in size. Alternatively, cover tightly and refrigerate overnight for 10 to 12 hours until puffed and soft.
+
+                    Thirty minutes before baking, adjust the oven rack to the middle position and preheat to 350°F (180°C). Bake the pandesal for about 20 minutes, or until golden brown and puffed. Remove from the oven and serve immediately.
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+
+                </div>
+              </div>
+            </div> 
+                    </div>
+                </div>
+            </div>
+
+            <!-- Menudo Card -->
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img class="card-img-top" src="https://i.pinimg.com/736x/55/79/08/557908386960155c639758f11e899a0e.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h3 class="card-title">Lunch: Menudo</h3>
+                        <p class="card-text">It is best broth to eat in chilly days. It is sour yet the flavors inside it are exquisite.</p>
+                        <div class="container mt-3"> 
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModalMenudo">
+                                Click Here
+                            </button>
+                        </div>
+
+      <!-- Modal for Menudo -->
+      <div class="modal" id="myModalMenudo">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">INSTRUCTIONS</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              <!-- Instructions for Menudo -->
+              Prepare the Tripe:
+Rinse the beef tripe under cold water thoroughly. Cut it into bite-sized pieces, if not pre-cut. You can also parboil the tripe by boiling it for 15-20 minutes in a separate pot with water and then draining it.
+Prepare the Broth:
+In a large pot, add the beef tripe, beef bones (if using), quartered onion, garlic, and enough water to cover the ingredients. Bring to a boil over medium-high heat, then lower the heat and simmer for 1-2 hours. Skim off any foam or impurities that float to the top.
+Prepare the Chili Sauce:
+While the broth is simmering, prepare the dried chiles by removing the stems and seeds. Heat a small skillet over medium heat, and lightly toast the dried chiles for a few seconds until fragrant (don’t burn them).
+Place the toasted chiles in a bowl, and cover them with hot water. Let them soak for about 10 minutes until softened.
+After soaking, blend the chiles with a little of the soaking water until smooth.
+Combine the Broth and Chili Sauce:
+Once the broth has simmered for 1-2 hours, strain the chili sauce through a fine sieve into the pot to remove any bits of skin and seeds. Stir well to combine.
+Add Hominy and Seasonings:
+Add the drained hominy to the pot along with oregano, salt, and pepper to taste. Continue simmering for another 1-2 hours, or until the tripe becomes tender.
+Adjust the Flavor:
+Taste the broth and adjust the seasoning, adding more salt or pepper as needed.
+Serve:
+Ladle the menudo into bowls and serve with your choice of garnishes, such as chopped cilantro, lime wedges, diced onions, radishes, and oregano. It’s also delicious when accompanied by warm tortillas or Mexican bread.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sinigang Card -->
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img class="card-img-top" src="https://i.pinimg.com/736x/8e/fd/f6/8efdf68ae55ac2390f6006c373bfcd63.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h3 class="card-title">Lunch: Sinigang</h3>
+                        <p class="card-text">It is best broth to eat in chilly days. It is sour yet the flavors inside it are exquisite.</p>
+                        <div class="container mt-3"> 
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModalSinigang">
+                                Click Here
+                            </button>
+
+      <!-- Modal for Sinigang -->
+      <div class="modal" id="myModalSinigang">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">INSTRUCTIONS</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              <!-- Instructions for Sinigang -->
+              Prepare the Pork:
+In a large pot, add the pork and cover with water. Bring it to a boil and let it simmer for about 5-10 minutes. This helps remove impurities and scum. Afterward, drain and rinse the pork.
+Make the Broth:
+In the same pot, add the cleaned pork, onion, tomatoes, and 3-4 cups of water. Bring to a boil, then lower the heat and let it simmer for about 40-60 minutes or until the pork becomes tender.
+Add the Tamarind:
+Once the pork is tender, add the tamarind paste (or fresh tamarind if you're using it). If using fresh tamarind, boil it in a separate pot of water, mash it, and strain it to extract the juice before adding it to the pot. Stir to combine.
+Season the Soup:
+Add fish sauce, sugar (optional), and a pinch of salt and pepper. Taste and adjust the seasoning, adding more fish sauce or tamarind if needed to achieve the right level of sourness.
+Add the Vegetables:
+Add the eggplant, radish, and string beans. Let it cook for about 5-7 minutes until they start to soften.
+Add the okra (optional) and cook for another 3-5 minutes.
+Finally, add the kangkong (or other leafy greens) and simmer for another 2-3 minutes, until everything is tender.
+Serve:
+Taste the broth one last time, adjust seasoning if necessary, and serve the sinigang hot with steamed rice.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sisig Card -->
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img class="card-img-top" src="https://i.pinimg.com/736x/b6/00/ae/b600ae4f2d021b18cf0f8533cc5983af.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h3 class="card-title">Dinner: Sisig</h3>
+                        <p class="card-text">This is one of the top favorites in Filipino Cuisine. It is served in a hot sizzling plate, and it contains garlic, onions, and raw egg on top of it which flavors the dish.</p>
+                        <div class="container mt-3"> 
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModalSisig">
+                                Click Here
+                            </button>
+                        </div>
+
+      <!-- Modal for Sisig -->
+      <div class="modal" id="myModalSisig">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">INSTRUCTIONS</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              <!-- Instructions for Sisig -->
+             Boil the Pork (and Optional Parts):
+
+In a large pot, bring water to a boil and add the pork belly, pork ears, and pork liver (if using). Add a pinch of salt and simmer for about 45 minutes or until the pork is tender. Drain the meat and allow it to cool slightly. Once cool enough to handle, chop the pork (and liver, if using) into small bite-sized pieces.
+Grill the Pork (Optional but adds smokiness):
+
+If you want that smoky flavor, you can grill the chopped pork pieces for a few minutes on each side until lightly charred. This step is traditional and really adds depth to the flavor.
+Sauté the Aromatics:
+
+In a pan, heat some oil over medium heat. Sauté the garlic, onion, and chilies (if using) until fragrant and softened.
+Cook the Pork:
+
+Add the chopped pork (and any other cooked meats) to the pan with the sautéed aromatics. Stir-fry for 5-10 minutes to get some crispy bits and golden color.
+Season:
+
+Add soy sauce, vinegar, sugar, salt, and pepper. Stir well and let it cook for another 5-7 minutes until the liquid evaporates and the pork becomes flavorful and slightly caramelized. If the mixture gets too dry, you can add a splash of chicken or pork broth.
+Add Calamansi/Lime and Mayonnaise:
+
+Squeeze in the calamansi or lime juice for acidity. Add mayonnaise (if using) for richness and creaminess. Stir everything together and cook for another 2-3 minutes.
+Optional Egg:
+
+If you want to add an egg, create a well in the center of the sisig mixture, crack the egg into it, and let it cook for a minute or so before mixing it into the whole dish. This will add a creamy, silky texture.
+Serve:
+
+Transfer the sisig to a sizzling plate (if you have one) or a regular serving dish. Garnish with chopped green onions and serve hot with rice.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lechon Card -->
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img class="card-img-top" src="https://i.pinimg.com/736x/50/5d/38/505d3820798009ef2502178207abb923.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h3 class="card-title">Dinner: Lechon</h3>
+                        <p class="card-text">This is every Filipino's Favorite Baboy! The skin is crispy and the meat is delicious.</p>
+                        <div class="container mt-3"> 
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModalLechon">
+                                Click Here
+                            </button>
+
+      <!-- Modal for Lechon -->
+      <div class="modal" id="myModalLechon">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">INSTRUCTIONS</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              <!-- Instructions for Lechon -->
+             1. Prepare the Pig:
+Clean the Pig: Make sure the pig is properly cleaned and gutted. If you have it butchered, the innards should be removed, and the pig should be thoroughly cleaned inside and out.
+Marinate: In a large bowl, mix salt, pepper, minced garlic, lemongrass, and a little soy sauce (optional) with vinegar or calamansi juice to create a marinade. Rub this mixture all over the pig, including inside the cavity. Let it marinate for at least 4 hours or overnight for maximum flavor.
+Stuff the Pig: Stuff the pig’s cavity with a combination of bay leaves, onions, and more lemongrass. This will infuse the meat with aromatic flavors as it roasts.
+2. Prepare the Roasting Setup:
+Set up a Rotisserie or Pit: If using a traditional pit, dig a deep hole and line it with stones, placing a grill rack above it where the pig will rest. Ensure the fire source is placed to allow for indirect cooking. If you're using a rotisserie, ensure the spit can handle the weight of the pig.
+Skewer the Pig: Using bamboo skewers or a metal rotisserie spit, securely skewer the pig through the center lengthwise. The pig should be balanced evenly on the skewer to rotate properly.
+3. Roast the Pig:
+Start the Fire: Start a fire using charcoal or wood, ensuring that the heat is indirect. If using a rotisserie, you can adjust the heat by raising or lowering the spit to control the cooking temperature.
+Roast: Roast the pig for 4 to 8 hours, depending on the size of the pig and the heat of the fire. It’s important to rotate the pig regularly (if using a rotisserie) to ensure even cooking.
+Baste with Oil: Occasionally baste the pig with cooking oil or its own drippings to keep the skin crispy and prevent the meat from drying out.
+4. Check for Doneness:
+The pig is done when the skin is golden brown and crispy, and the internal temperature reaches around 180°F (82°C) for the meat to be tender.
+If you don’t have a thermometer, you can test by checking if the meat is tender and the skin is crispy and easily crackled when you press it.
+5. Serving:
+Once the lechon is cooked, remove it from the spit and let it rest for about 15 minutes before carving.
+Serve with a dipping sauce such as lechon sauce (a sweet and savory soy-based sauce) or vinegar with chili.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- End of row -->
+
+    </div>
+</div>
+
+
+  <div class="tab-pane fade" id="form">
+  <div class="container mt-3">
+    <h4>~*Recipe Ideas You Would Like To Share*~</h4>
+    <form action="/action_page.php">
+      <div class="mb-3 mt-3">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+      <div class="mb-3">   
+    </form>
+  </div>
+</div>
+
+    <div class="container mt-3">
+  <form action="/action_page.php">
+    <div class="mb-3 mt-3">
+      <label for="ingreidents">Ingredients:</label>
+      <textarea class="form-control" rows="5" id="ingredients" name="text"></textarea>
+    </div>
+  </form>
+</div>
+
+  <div class="container mt-3">
+  <form action="/action_page.php">
+    <div class="mb-3 mt-3">
+      <label for="instructions">Instructions:</label>
+      <textarea class="form-control" rows="5" id="instructions" name="text"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
